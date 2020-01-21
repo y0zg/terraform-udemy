@@ -1,3 +1,8 @@
 server-script.zip
 /zipped
 /tf-latest
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
