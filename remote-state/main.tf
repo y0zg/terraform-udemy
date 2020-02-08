@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "s3backend" {
-  bucket = "tj-s3-backend-course"
+  bucket = "s3-3s-my-project-backend"
 
   versioning = {
     enabled = true
