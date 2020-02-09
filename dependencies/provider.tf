@@ -1,5 +1,7 @@
 provider "aws" {
-  access_key = "AKIA53SMBKOTDGXUFUV5"
-  secret_key = "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"
-  region     = "eu-west-2"
+  alias                   = "us-east-1"
+  version                 = "~> 2.0"
+  region                  = "us-east-1"
+  shared_credentials_file = "~/.aws/credentials"
+  profile                 = "awstraining"
 }
